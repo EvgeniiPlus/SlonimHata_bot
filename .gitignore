@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.Python
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Database files (common with aiogram)
+*.db
+*.sqlite
+
+# Log files
+*.log
+logs/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# aiogram session files (if using file-based storage)
+*.session
+*.session-journal
+
+# Temporary files
+*.tmp
+*.temp
